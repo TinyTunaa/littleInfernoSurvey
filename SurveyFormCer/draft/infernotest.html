@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Little Inferno Survey</title>
+    <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+    <link rel="stylesheet" href="teststyles.css" />
+</head>
+
+<body>
+    <h1 id="title">Little Inferno Survey</h1>
+    <p id="description">Let us know how you're liking your Little Inferno!</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Name: <input type="text" id="name" required placeholder="Enter your name" /></label>
+            <label id="email-label">Email: <input type="email" id="email" required
+                    placeholder="Enter your email" /></label>
+            <label id="number-label">Age: <input type="number" id="number" required min="0" max="120"
+                    placeholder="Enter your age" /></label>
+        </fieldset>
+        <fieldset>
+            <label>How did you first hear about us?
+                <select id="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="1">The Weather Man</option>
+                    <option value="2">The Mailman</option>
+                    <option value="3">Miss Nancy</option>
+                    <option value="4">Other</option>
+                </select>
+            </label> <label> How often do you use your Little Inferno?</label>
+            <label><input type="radio" name="how-often" class="inline" value="5" />5 hours a day </label>
+            <label><input type="radio" name="how-often" class="inline" value="6" />12 hours a day </label>
+            <label><input type="radio" name="how-often" class="inline" value="7" />24/7 FOREVERRRR <3 </label>
+        </fieldset>
+        <fieldset><label>What is your favorite thing to do as you sit infront of your inferno?</label>
+            <label><input type="checkbox" id="fav-thing" class="inline" value="8" />Stare into the fireee</label>
+            <label><input type="checkbox" id="fav-thing" class="inline" value="9" />Burn thingsss</label>
+            <label><input type="checkbox" id="fav-thing" class="inline" value="10" />Write letters to my friend <3
+                    </label>
+                    <label><input type="checkbox" id="fav-thing" class="inline" value="11" />Order more things to
+                        burnnn</label>
+        </fieldset>
+        <fieldset> <label>How likely are you refer Little Inferno to a friend?</label>
+            <label><input type="radio" name="how-likely" class="inline" value="12" /> Likely</label>
+            <label><input type="radio" name="how-likely" class="inline" value="13" /> VERY LIKELYYYY <3 </label>
+                    <label><input type="radio" name="how-likely" class="inline" value="14" /> I have no friends
+                        :'(((</label>
+        </fieldset>
+        <fieldset>
+            <label>Drop any suggestions for future upgrades you'd like to see here:
+                <textarea id="bio" rows="3" cols="30"
+                    placeholder="I lovee my inferno SOO MUCHHH but I'd LOVEE to have FIREPROOF curtains so I can gift them to my BEST frienddd <3"></textarea>
+            </label>
+            <input type="submit" value="Submit" id="submit" />
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
